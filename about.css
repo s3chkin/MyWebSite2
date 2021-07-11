@@ -1,0 +1,179 @@
+#body
+{
+    background:rgb(167, 195, 202);
+    background-position:height 800px;
+	  background-size:cover;
+}
+#content
+  {
+  width:250px;
+	height:150;
+	background-color: lightblue;
+	border-radius: 10px;
+	margin: 0 auto;
+  }
+  #firstNumber
+  {
+    margin:15px;
+  }
+  #secondNumber
+  {
+    margin:15px;
+  }
+  #result
+  {
+    margin: 15px;
+	color: green;
+	font-size: 20px;
+  }
+  #calculator
+  {
+      text-align: center;
+  }
+  .menu
+  {
+    text-align:center;
+    position: relative;
+    width: 845px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #0e7c76;
+    border-radius: 10px;
+    
+
+  }  
+  
+  
+    .menu li a 
+  {
+    float: left;
+    width: 200px;
+    height:33px;
+    color:black;
+    background-color: rgb(173, 230, 216);
+    font-size:20px;
+    text-align:center;  
+    cursor:pointer;
+    transition:1s; 
+    margin: 5px;
+    padding: 4px;
+    border-right:2px solid black;
+    text-decoration:none;
+    border: 1px solid #00ffbf;
+    border-radius: 10px;
+    
+  
+   
+  }
+   .menu ul
+  {
+    text-align:center;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+   
+  }
+   
+  
+  .menu li a:hover 
+  {
+    background-color: rgb(36, 226, 131);;
+    font-size: 23px;
+    padding: 0px;
+    /*box-shadow: 2px 2px 4px black inset;*/
+    transform:scale(1.5,1.5);
+  }
+  
+  #motivation1
+  {
+    background-color: rgb(36, 226, 131);
+    box-shadow: 4px 4px 4px black inset;
+  }
+  
+  #img1
+  {
+    padding: 23px;
+  }
+  /*p
+  {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: orange;
+  }*/
+ #carouselExampleControls
+ {
+   size: 100px;
+ }
+ #block1 
+ {
+ position:relative;
+ width: 480px;
+ height: 400px;
+ background-color: #0e7c76;
+ margin: 0 auto;
+ padding: 0 auto;
+ border-radius: 10px;
+ border: 1px solid #00ffbf;
+
+ }
+ 
+/* div .menu
+ {
+   font-size: 50px;
+   font-family: Cursive;
+   transition:2s;
+ }*/
+ ol
+ {
+   color: rgb(173, 230, 216);
+  font-size: 25px;
+  font-family: Cursive;
+ }
+ #work
+ {
+   margin: 30px;
+  font-size:20px;
+	text-align: center;
+	font-family: Cursive;
+	color:#0e7c76;
+ }
+ .image1
+ {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+ }
+ #block6
+ {
+   text-align: center;
+   font-size: 23px;
+   font-family: Arial, Helvetica, sans-serif;
+   background: #0e7c76;
+   color:rgb(173, 230, 216) ;
+
+ }
+
+ #table
+ {
+   background: #0e7c76;
+   color:rgb(173, 230, 216) ;
+   text-align: center;
+   font-size: 23px;
+   font-family: 'Courier New', Courier, monospace;
+ }
+#carouselExampleCaptions
+{
+  width: 600px;
+  height: 400px;
+}
+#motivation
+{
+  margin: 30px;
+	font-family: Cursive;
+	color:#fffefe;
+  background-color: black;
+}
+.container {
+  flex-wrap: nowrap  wrap  wrap-reverse;
+}
