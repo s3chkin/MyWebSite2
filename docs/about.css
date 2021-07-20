@@ -4,6 +4,37 @@
     background-position:height 800px;
 	  background-size:cover;
 }
+#homepage
+{
+  background-image:url("wallpaper2you_58740.jpg");
+  background-position:auto;
+ 	background-size: auto;
+}
+#homepage-p
+{
+  text-align: center;
+  color: white;
+  padding: 100px;
+  font-style: italic;
+  text-shadow: 6px 6px 2px black;
+  
+}
+#homepage-p:hover
+{
+  transform: translate(0,10px);
+}
+
+.ml2 {
+  padding: 50px;;
+  color: #eeff00;
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
 #content
   {
   width:250px;
@@ -12,24 +43,9 @@
 	border-radius: 10px;
 	margin: 0 auto;
   }
-  #firstNumber
-  {
-    margin:15px;
-  }
-  #secondNumber
-  {
-    margin:15px;
-  }
-  #result
-  {
-    margin: 15px;
-	color: green;
-	font-size: 20px;
-  }
-  #calculator
-  {
-      text-align: center;
-  }
+
+  
+ 
   .menu
   {
     text-align:center;
@@ -42,7 +58,115 @@
     
 
   }  
-  
+  .buttons{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .buttons .row{
+    display: block;
+   margin-left: 60px;
+  }
+  .buttons .row button{
+    position: relative;
+    display: block;
+    height: 55px;
+    width: 150px;
+    margin: 40px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+    transition: all 0s ease-out;
+  }
+  .row button:active{
+    top: 3px;
+  }
+  .row button.facebook,
+  .row button.facebook span{
+    background: #3B5999;
+    border-left: 1px solid #2E4476;
+    box-shadow: 0px 5px 0px 0px #2E4476;
+  }
+  .row button.facebook:active{
+    box-shadow: 0px 2px 0px 0px #2E4476;
+  }
+  .row button.twitter,
+  .row button.twitter span{
+    background: #46C1F6;
+    border-left: 1px solid #269BD0;
+    box-shadow: 0px 5px 0px 0px #269BD0;
+  }
+  .row button.twitter:active{
+    box-shadow: 0px 2px 0px 0px #269BD0;
+  }
+  .row button.instagram,
+  .row button.instagram span{
+    background: #e1306c;
+    border-left: 1px solid #c91d56;
+    box-shadow: 0px 5px 0px 0px #c91d56;
+  }
+  .row button.instagram:active{
+    box-shadow: 0px 2px 0px 0px #c91d56;
+  }
+  .row button.youtube,
+  .row button.youtube span{
+    background: #000000;
+    border-left: 1px solid #000000;
+    box-shadow: 0px 5px 0px 0px #3f1313;
+  }
+  .row button.youtube:active{
+    box-shadow: 0px 2px 0px 0px #000000;
+  }
+  .row button span{
+    position: absolute;
+    height: 55px;
+    width: 60px;
+    top: 0;
+    left: -60px;
+    line-height: 55px;
+    font-size: 25px;
+    display: block;
+    font-weight: normal;
+    border-radius: 5px 0 0 5px;
+  }
+  .row button:active span{
+    top: -3px;
+  }
+  .row button.facebook span{
+    border-right: 1px solid #2E4476;
+  }
+  .row button.twitter span{
+    border-right: 1px solid #269BD0;
+  }
+  .row button.instagram span{
+    border-right: 1px solid #c91d56;
+  }
+  .row button.youtube span{
+    border-right: 1px solid #C02B21;
+  }
+  .row button.facebook:active span{
+    box-shadow: 0px 5px 0px 0px #2E4476,
+                6px 4px 2px rgba(0,0,0,0.3);
+  }
+  .row button.twitter:active span{
+    box-shadow: 0px 5px 0px 0px #269BD0,
+                6px 4px 2px rgba(0,0,0,0.3);
+  }
+  .row button.instagram:active span{
+    box-shadow: 0px 5px 0px 0px #c91d56,
+                6px 4px 2px rgba(0,0,0,0.3);
+  }
+  .row button.youtube:active span{
+    box-shadow: 0px 5px 0px 0px #000000,
+                6px 4px 2px rgba(0,0,0,0.3);
+  }
   
     .menu li a 
   {
@@ -86,6 +210,7 @@
   
   #motivation1
   {
+    
     background-color: rgb(36, 226, 131);
     box-shadow: 4px 4px 4px black inset;
   }
@@ -142,8 +267,12 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-
  }
+#computer1
+{
+  padding: 40px;
+}
+
  #block6
  {
    text-align: center;
@@ -176,4 +305,70 @@
 }
 .container {
   flex-wrap: nowrap  wrap  wrap-reverse;
+}
+#footer
+{
+  padding: 30px;
+  background-color: rgb(226, 243, 238);
+}
+
+.btns
+{
+  padding: 356px; 
+}
+.btns a{
+
+  position: relative;
+  margin: 0 20px;
+  height: 60px;
+  width: 200px;
+  display: block;
+  line-height: 60px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+.btns a:first-child{
+  background: linear-gradient(-90deg, #f5ce62, #e85a19);
+}
+/* .btns a:last-child{
+  background: linear-gradient(90deg, #0162c8, #55e7fc);
+} */
+.btns a > span{
+  position: absolute;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: ripples 0.6s linear infinite;
+}
+@keyframes ripples {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.5;
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+  }
+}
+#footer-p
+{
+  padding: 100px;
+  margin: 50px;
+  float: right;
+  color: #2E4476;
+}
+.footer-buttons
+{
+  float: left;
+
 }
